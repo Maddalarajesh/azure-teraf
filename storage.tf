@@ -1,7 +1,4 @@
-resource "azurerm_resource_group" "rg" {
-  name = "azureresource"
-  location = "East US"
-}
+
 
 # Create Storage Account with Static Website
 resource "azurerm_storage_account" "static_website" {
