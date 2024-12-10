@@ -8,7 +8,7 @@ resource "azurerm_storage_account" "static_website" {
   account_tier = "Standard"  # Removed "_LRS"
   account_replication_type = "LRS" 
   static_website {
-    index_document = "index.html"
+    index_document = "index123.html"
     error_404_document = "404.html"
   }
 }
